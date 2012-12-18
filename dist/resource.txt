@@ -1,0 +1,105 @@
+<ResourceFile>
+
+<!-- TileTemplate -->
+<resource type="tiletemplate" name="main" file="templates.tmp" path="rel" />
+<resource type="tiletemplate" name="main2" file="templates2x.tmp" path="rel" />
+
+<!-- Objtype -->
+<resource type="objtype" name="player" file="player.obj" path="rel" />
+<resource type="objtype" name="crate" file="crate.obj" path="rel"/>
+<resource type="objtype" name="spring"  file="spring.obj" />
+<resource type="objtype" name="lever"  file="lever.obj" />
+<resource type="objtype" name="gate"  file="gate.obj" />
+<resource type="objtype" name="gate2"  file="gate2.obj" />
+<resource type="objtype" name="cannon"  file="cannon.obj" />
+<resource type="objtype" name="cannonball"  file="cannonball.obj" />
+<resource type="objtype" name="spike"  file="spike.obj" />
+<resource type="objtype" name="platform"  file="platform.obj" />
+<resource type="objtype" name="portal"  file="portal.obj" />
+<resource type="objtype" name="sentry"  file="sentry.obj" />
+<resource type="objtype" name="chaser"  file="chaser.obj" />
+<resource type="objtype" name="bomber"  file="bomber.obj" />
+<resource type="objtype" name="turret"  file="turret.obj" />
+<resource type="objtype" name="pusher"  file="pusher.obj" />
+<resource type="objtype" name="package"  file="package.obj" />
+<resource type="objtype" name="door_yellow"  file="door_yellow.obj" />
+<resource type="objtype" name="door_blue"  file="door_blue.obj" />
+<resource type="objtype" name="door_pink"  file="door_pink.obj" />
+<resource type="objtype" name="key_yellow"  file="key_yellow.obj" />
+<resource type="objtype" name="key_blue"  file="key_blue.obj" />
+<resource type="objtype" name="key_pink"  file="key_pink.obj" />
+<resource type="objtype" name="bullet"  file="bullet.obj" />
+<resource type="objtype" name="sensor"  file="sensor.obj" />
+<resource type="objtype" name="falsefloor"  file="falsefloor.obj" />
+<resource type="objtype" name="break"  file="break.obj" />
+<resource type="objtype" name="pogo"  file="pogo.obj" />
+<resource type="objtype" name="fallspike"  file="fallspike.obj" />
+<resource type="objtype" name="droid"  file="droid.obj" />
+<resource type="objtype" name="biglex"  file="biglex.obj" />
+
+<!-- Controller -->
+<resource type="controller" name="spring" file="SpringController.py" />
+<resource type="controller" name="platform" file="PlatformController.py" />
+<resource type="controller" name="portal" file="PortalController.py" />
+<resource type="controller" name="lever" file="LeverController.py" />
+<resource type="controller" name="gate" file="GateController.py" />
+<resource type="controller" name="door" file="DoorController.py" />
+<resource type="controller" name="key" file="KeyController.py" />
+<resource type="controller" name="sentry" file="SentryController.py" />
+<resource type="controller" name="turret" file="TurretController.py" />
+<resource type="controller" name="bullet" file="BulletController.py" />
+<resource type="controller" name="spike" file="SpikeController.py" />
+<resource type="controller" name="cannon" file="CannonController.py" />
+<resource type="controller" name="cannonball" file="CannonballController.py" />
+<resource type="controller" name="package" file="PackageController.py" />
+<resource type="controller" name="chaser" file="ChaserController.py" />
+<resource type="controller" name="falsefloor" file="FalsefloorController.py" />
+<resource type="controller" name="break" file="BreakController.py" />
+<resource type="controller" name="pogo" file="PogoController.py" />
+<resource type="controller" name="fallspike" file="FallspikeController.py" />
+<resource type="controller" name="droid" file="DroidController.py" />
+<resource type="controller" name="biglex" file="BiglexController.py" />
+
+
+<!-- Image -->
+<resource type="image" name="default" file="default.bmp" />
+<resource type="image" name="may" file="may.bmp" />
+<resource type="image" name="dexter" file="dexter.bmp" />
+<resource type="image" name="lex" file="lex.bmp" />
+<resource type="image" name="heart" file="heart.bmp" />
+<resource type="image" name="key_yellow" file="key_yellow.bmp" />
+<resource type="image" name="key_pink" file="key_pink.bmp" />
+<resource type="image" name="key_blue" file="key_blue.bmp" />
+<resource type="image" name="package" file="package.bmp" />
+<resource type="image" name="plasma_cursor" file="plasma_cursor.bmp" />
+<resource type="image" name="grav_cursor" file="grav_cursor.bmp" />
+
+<!-- Music -->
+<resource type="music" name="splash" file="overworld.mid" />
+<resource type="music" name="one" file="palaceofwinds.mid" />
+<resource type="music" name="two" file="jlighthouse.mid" />
+<resource type="music" name="three" file="lightningtemple.mid" />
+<resource type="music" name="four" file="vaatibattle.mid" />
+<resource type="music" name="five" file="13thstruggle.mid" />
+<resource type="music" name="end" file="finalmission.mid" />
+
+<!--Sound -->
+<resource type="sound" name="sound6" file="sound6.wav" />
+<resource type="sound" name="sound24" file="sound24.wav" />
+<resource type="sound" name="scifi003" file="scifi003.wav" />
+<resource type="sound" name="scifi035" file="scifi035.wav" />
+<resource type="sound" name="scifi014" file="scifi014.wav" />
+<resource type="sound" name="scifi018" file="scifi018.wav" />
+<resource type="sound" name="laser" file="laser.wav" />
+<resource type="sound" name="misc020" file="misc020.wav" />
+<resource type="sound" name="drop03" file="drop03.wav" />
+<resource type="sound" name="light" file="light.wav" />
+<resource type="sound" name="thump" file="thump.wav" />
+<resource type="sound" name="tom" file="tom.wav" />
+<resource type="sound" name="sound44" file="sound44.wav" />
+<resource type="sound" name="sound45" file="sound45.wav" />
+<resource type="sound" name="sound62" file="sound62.wav" />
+<resource type="sound" name="sound68" file="sound68.wav" />
+
+</ResourceFile>
+	
