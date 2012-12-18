@@ -1,3 +1,3 @@
 Singularity - Final Version
 
-This is an archive of a video game that I wrote during sophomore year of high school. Everything is included except 
+This is a platformer game that I wrote during sophomore year of high school. Includes a binary distribution in case you don't have a Python interpreter set up in your computer. Warning: the code is quite atrocious. Comment descriptions are almost non-existent; whole sections of unfunctioning code are left intact. However, do keep in mind that this was the work of a high schooler. I put the code up mostly for archival purposes, but of course you're welcome to reappropriate it as you wish.
